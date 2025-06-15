@@ -38,7 +38,7 @@ body.tema-1 {
 /* Tema 2: Romântico */
 body.tema-2 {
   background: linear-gradient(135deg, #ffdde1, #ee9ca7, #ff758c, #ff7eb3);
-  background-size: 400% 100%;
+  background-size: 100% 200%;
   animation: gradientMove 20s ease infinite;
 }
 
@@ -93,8 +93,8 @@ p {
   padding: 2rem;
   border-radius: 16px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(25px); /* Efeito "vidro" */
-  -webkit-backdrop-filter: blur(15px); /* Safari support */
+  backdrop-filter: blur(20px); /* Efeito "vidro" */
+  -webkit-backdrop-filter: blur(20px); /* Safari support */
   z-index: 20;
 }
 

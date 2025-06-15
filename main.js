@@ -138,15 +138,15 @@ function iniciarCoroacoes() {
     heart.style.fontSize = `${size}rem`;
 
     // Duração da animação
-    heart.style.animationDuration = `${Math.random() * 3 + 5}s`; // entre 5s e 8s
+    heart.style.animationDuration = `${Math.random() * 3 + 7}s`; // entre 5s e 8s
 
     container.appendChild(heart);
 
     // Remover após animação
     setTimeout(() => {
       heart.remove();
-    }, 10000);
-  }, 300); // Frequência de criação
+    }, 20000);
+  }, 100); // Frequência de criação
 }
 
 window.onload = function () {
