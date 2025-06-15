@@ -72,7 +72,7 @@ if (tituloEl && mensagemEl) {
 function launchConfettiLoop() {
   const duration = 8000; // 8 segundos
   const pause = 5000; // 5 segundos entre ciclos
-  const defaults = { startVelocity: 40, spread: 360, ticks: 200, zIndex: 1000 };
+  const defaults = { startVelocity: 40, spread: 360, ticks: 200, zIndex: 10 };
 
   function startConfettiCycle() {
     const animationEnd = Date.now() + duration;
