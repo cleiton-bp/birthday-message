@@ -68,4 +68,4 @@ Envie o link no formato com os parâmetros na URL:
 
 Exemplo:
 
-https://cleiton-bp.github.io/birthday-message/?nome=`nome`&tema=`tema`
+[https://cleiton-bp.github.io/birthday-message/?nome=`nome`&tema=`tema`](https://cleiton-bp.github.io/birthday-message/?nome=teste&tema=2)
